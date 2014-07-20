@@ -1,0 +1,3 @@
+[submodule "Assets/LibNoise"]
+	path = Assets/LibNoise
+	url = https://github.com/ricardojmendez/LibNoise.Unity.git
