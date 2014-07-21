@@ -186,7 +186,7 @@ GameObject:
   - 23: {fileID: 135953019}
   - 114: {fileID: 135953018}
   m_Layer: 0
-  m_Name: Cube - Example 1
+  m_Name: Cube - Example 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -203,7 +203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327700771885b40b4a55ff046da94084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _renderer: {fileID: 135953019}
   _gradient:
     key0:
       serializedVersion: 2
@@ -297,7 +296,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 135953017}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalPosition: {x: 2.0999999, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -315,7 +314,7 @@ GameObject:
   - 23: {fileID: 1669360732}
   - 114: {fileID: 1669360731}
   m_Layer: 0
-  m_Name: Cube - Example 2
+  m_Name: Cube - Example 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -332,7 +331,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327700771885b40b4a55ff046da94084, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _renderer: {fileID: 1669360732}
   _gradient:
     key0:
       serializedVersion: 2
@@ -426,7 +424,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1669360730}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -1.62920685e-07}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalPosition: {x: -2.0999999, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}

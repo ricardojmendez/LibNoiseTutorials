@@ -8,8 +8,6 @@ using LibNoise.Unity.Generator;
 /// </summary>
 public class Tutorial3 : MonoBehaviour 
 {
-	[SerializeField] Renderer _renderer;
-
 	[SerializeField] Gradient _gradient = GradientPresets.Terrain;
 
 	[SerializeField] float _left = 2;
@@ -34,7 +32,7 @@ public class Tutorial3 : MonoBehaviour
 
 		// Set it. It may appear inverted from the example on the LibNoise site depending 
 		// on the angle at which the object is rotated/viewed.
-		_renderer.material.mainTexture = image;
+		renderer.material.mainTexture = image;
 
 		// We don't do the light changes for the texture, since that's beyond the scope of 
 		// this port
