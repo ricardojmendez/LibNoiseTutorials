@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-using LibNoise.Unity;
-using LibNoise.Unity.Generator;
+using LibNoise;
+using LibNoise.Generator;
 
 /// <summary>
 /// See http://libnoise.sourceforge.net/tutorials/tutorial4.html for an explanation
