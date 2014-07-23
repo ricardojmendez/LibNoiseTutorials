@@ -86,7 +86,6 @@ GameObject:
   - 92: {fileID: 106001196}
   - 124: {fileID: 106001195}
   - 81: {fileID: 106001194}
-  - 114: {fileID: 106001193}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -94,20 +93,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &106001193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 106001192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 491498de7f21642de8d6f2fd6ee097f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _firstValue: {x: 1.25, y: .75, z: .5}
-  _displacement: {x: 9.99999975e-05, y: 9.99999975e-05, z: 9.99999975e-05}
-  _secondValue: {x: 14.5, y: 20.25, z: 75.75}
 --- !u!81 &106001194
 AudioListener:
   m_ObjectHideFlags: 0
@@ -252,6 +237,7 @@ MonoBehaviour:
   _bottom: 5
   _octaveCount: 6
   _frecuency: 2
+  _persistence: .5
 --- !u!23 &135953019
 Renderer:
   m_ObjectHideFlags: 0
@@ -382,6 +368,7 @@ MonoBehaviour:
   _bottom: 5
   _octaveCount: 6
   _frecuency: 1
+  _persistence: .5
 --- !u!23 &871697567
 Renderer:
   m_ObjectHideFlags: 0
@@ -512,6 +499,7 @@ MonoBehaviour:
   _bottom: 5
   _octaveCount: 6
   _frecuency: 4
+  _persistence: .5
 --- !u!23 &885446165
 Renderer:
   m_ObjectHideFlags: 0
@@ -642,6 +630,7 @@ MonoBehaviour:
   _bottom: 5
   _octaveCount: 6
   _frecuency: 8
+  _persistence: .5
 --- !u!23 &1186603780
 Renderer:
   m_ObjectHideFlags: 0
