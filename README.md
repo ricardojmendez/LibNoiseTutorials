@@ -8,9 +8,9 @@ are welcome.
 
 # A word on methodology
 
-Since these are tutorial examples, I expect I’ll just run development straight off master.  The LibNoise.Unity repository does follow git flow, so expect this tutorial repository will be a work-in-progress and might at any given point reference a development branch.
+Since these are tutorial examples, I expect I’ll just run development straight off master.  The LibNoise.Unity repository does follow git flow, so expect this tutorial repository will be a work-in-progress and might at any given point reference a LibNoise development branch.
 
-# Checkout out the repository
+# Checking out the repository
 
 It includes the LibNoise.Unity Github repository as a submodule.   If you have just cloned the project and find missing behaviors, make sure that:
 
