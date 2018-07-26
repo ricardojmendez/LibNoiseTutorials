@@ -123,7 +123,7 @@ public class Demo : MonoBehaviour
 		this.m_textures [2].Apply ();
         		
 		//display on plane
-		renderer.material.mainTexture = this.m_textures [0];
+		GetComponent<Renderer>().material.mainTexture = this.m_textures [0];
             
 
 		//write images to disk
