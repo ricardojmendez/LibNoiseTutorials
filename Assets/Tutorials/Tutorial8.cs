@@ -20,7 +20,7 @@ public class Tutorial8 : MonoBehaviour
 		var perlin = new Perlin();
 
 		var heightMapBuilder = new Noise2D(512, 256, perlin);
-		heightMapBuilder.GenerateSpherical(_north, _south, _west, _east);
+		heightMapBuilder.GenerateSpherical(_south, _north, _west, _east);
 
 		var image = heightMapBuilder.GetTexture(_gradient);
 		renderer.material.mainTexture = image;
