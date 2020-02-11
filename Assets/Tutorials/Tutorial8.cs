@@ -23,7 +23,7 @@ public class Tutorial8 : MonoBehaviour
 		heightMapBuilder.GenerateSpherical(_south, _north, _west, _east);
 
 		var image = heightMapBuilder.GetTexture(_gradient);
-		renderer.material.mainTexture = image;
+		GetComponent<Renderer>().material.mainTexture = image;
 
 
 

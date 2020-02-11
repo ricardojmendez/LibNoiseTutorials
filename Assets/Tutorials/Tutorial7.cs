@@ -64,7 +64,7 @@ public class Tutorial7 : MonoBehaviour
 		var heightMapBuilder = new Noise2D(513, 513, generator);
 		heightMapBuilder.GeneratePlanar(_left, _right, _top, _bottom);
 		var image = heightMapBuilder.GetTexture(_gradient);
-		renderer.material.mainTexture = image;
+		GetComponent<Renderer>().material.mainTexture = image;
 	}
 	
 }
